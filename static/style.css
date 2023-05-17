@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body{
+    margin: 0;
+}
+
+.principal{
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vw;
+    display: flex;
+    background-color: cyan;
+    height: 100vh;
+    width: 100vw;
+}
+
+.principal .esquerda{
+    background-color: black;
+    width: 50%; 
+    min-height: 100vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.principal .esquerda .img{
+    border-radius: 3vw;
+    max-width: 20%; 
+    height: auto; 
+}
+.principal .esquerda .conteudo{
+    text-align: right;
+    margin-top: 19vw;
+    margin-right: 1vw;
+    line-height: 3vw;
+}
+
+.principal .direita{
+    background-color: grey;
+    width: 50%;
+    min-height: 100vh;
+}
+
+.principal .direita .conteudo{
+    text-align: left;
+    margin-top: 25vw;
+    margin-left: 1vw;
+    line-height: vw;
+}
+
+.principal .direita .linguagens{
+    margin-top: 0.9vw;
+    color: none;
+}
+
+.principal .direita .linguagens #python:hover{
+    color: goldenrod;
+}
+
+.principal .direita .linguagens #sql:hover{
+    color: #00758f;
+}
